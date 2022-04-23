@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="aad48eadae3440cb9d94407af132b8fe" class="chart-container" style="width:1000px; height:700px;"></div>
+    <script>
+        var chart_aad48eadae3440cb9d94407af132b8fe = echarts.init(
+            document.getElementById("aad48eadae3440cb9d94407af132b8fe"), "white", {renderer: "canvas"});
+        var option_aad48eadae3440cb9d94407af132b8fe = {
+    "backgroundColor": "rgba(46, 63, 81, 127)",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 3,
+                "period": 5,
+                "color": "red"
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "China",
+                    "value": [
+                        104.2,
+                        35.86,
+                        0
+                    ]
+                },
+                {
+                    "name": "United States",
+                    "value": [
+                        -95.71,
+                        37.09,
+                        120.9
+                    ]
+                },
+                {
+                    "name": "Germany",
+                    "value": [
+                        10.45,
+                        51.17,
+                        92.8
+                    ]
+                },
+                {
+                    "name": "Japan",
+                    "value": [
+                        138.25,
+                        36.2,
+                        51
+                    ]
+                },
+                {
+                    "name": "Ireland",
+                    "value": [
+                        -8.24,
+                        53.41,
+                        30
+                    ]
+                },
+                {
+                    "name": "Switzerland",
+                    "value": [
+                        8.23,
+                        46.82,
+                        28.6
+                    ]
+                },
+                {
+                    "name": "Mexico",
+                    "value": [
+                        -102.55,
+                        23.63,
+                        22.4
+                    ]
+                },
+                {
+                    "name": "Singapore",
+                    "value": [
+                        103.82,
+                        1.35,
+                        14
+                    ]
+                },
+                {
+                    "name": "Korea",
+                    "value": [
+                        127.98,
+                        37.66,
+                        13.1
+                    ]
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": [
+                        -3.44,
+                        55.38,
+                        11.6
+                    ]
+                },
+                {
+                    "name": "France",
+                    "value": [
+                        2.21,
+                        46.23,
+                        11.5
+                    ]
+                }
+            ],
+            "label": {
+                "show": true,
+                "position": "right",
+                "color": "#0f0",
+                "margin": 8,
+                "fontSize": 13,
+                "formatter": "{b}",
+                "borderWidth": 2.0
+            }
+        },
+        {
+            "type": "lines",
+            "name": "geo",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "rgba(255,144,128,1)",
+                "symbol": "circle",
+                "symbolSize": 8,
+                "trailLength": 0.01
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 7,
+            "data": [
+                {
+                    "name": "United States->China",
+                    "coords": [
+                        [
+                            -95.71,
+                            37.09
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "Germany->China",
+                    "coords": [
+                        [
+                            10.45,
+                            51.17
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->China",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "Ireland->China",
+                    "coords": [
+                        [
+                            -8.24,
+                            53.41
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "Switzerland->China",
+                    "coords": [
+                        [
+                            8.23,
+                            46.82
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "Mexico->China",
+                    "coords": [
+                        [
+                            -102.55,
+                            23.63
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "Singapore->China",
+                    "coords": [
+                        [
+                            103.82,
+                            1.35
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "Korea->China",
+                    "coords": [
+                        [
+                            127.98,
+                            37.66
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "United Kingdom->China",
+                    "coords": [
+                        [
+                            -3.44,
+                            55.38
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "France->China",
+                    "coords": [
+                        [
+                            2.21,
+                            46.23
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 2.5,
+                "opacity": 0.8,
+                "curveness": 0.5,
+                "type": "solid",
+                "color": new echarts.graphic.LinearGradient(0, 0, 0, 1, [{                        offset: 0,                        color: "#00acea"                    }, {                        offset: 1,                        color: "#FF8C00"                    }])
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                "geo"
+            ],
+            "selected": {
+                "": true,
+                "geo": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": "{b}",
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "geo": {
+        "map": "world",
+        "zoom": 1.2,
+        "roam": false,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "label": {
+            "show": false,
+            "position": "top",
+            "color": "rgba(255,144,128,1)",
+            "margin": 8
+        },
+        "itemStyle": {
+            "color": "rgba(46, 63, 81, 127)",
+            "borderColor": "#445973",
+            "borderWidth": 1.0
+        },
+        "emphasis": {
+            "itemStyle": {
+                "areaColor": "rgba(0,0,0,0)"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    }
+};
+        chart_aad48eadae3440cb9d94407af132b8fe.setOption(option_aad48eadae3440cb9d94407af132b8fe);
+    </script>
+</body>
+</html>
