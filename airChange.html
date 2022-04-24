@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        
+        video::-webkit-media-controls {display: none !important;}
+
+
+    </style>
+</head>
+<body>
+    <div id="app" style="height:100%;">
+        <video id="v" muted autoplay="autoplay" loop="loop">
+            <source src="./airChange.MP4" type="video/mp4"></source>
+        </video>
+    </div>
+    <script>
+        app = document.getElementById("app");
+        app.width = window.innerWidth;
+    </script>
+</body>
+</html>
